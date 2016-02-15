@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/fragmenttc"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:background="#2A90D1"
+          android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/txt_datsan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ĐẶT SÂN"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#FFA113"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/txt_timsan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TÌM SÂN" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#454587"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/txt_banhang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BÁN HÀNG" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#38AD55"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/txt_thongke"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="THỐNG KÊ" />
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:background="#FFFC00"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:id="@+id/txt_baocao"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="THANH TOÁN" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#FF0900"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/txt_taikhoan11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TÀI KHOẢN" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#7205A1"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/txt_caidat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CÀI ĐẶT" />
+    </LinearLayout>
+</LinearLayout>

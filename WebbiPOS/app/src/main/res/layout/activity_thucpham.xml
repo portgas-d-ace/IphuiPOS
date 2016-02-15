@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:paddingTop="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+
+
+
+    tools:context="com.tienle.webbipos.Activity.ThucphamActivity">
+<LinearLayout
+   android:layout_marginRight="16dp"
+   android:background="@drawable/border_edittext"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+android:textSize="12sp"
+        android:id="@+id/editText18"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_search_black_48dp"/>
+</LinearLayout>
+   <ListView
+       android:layout_marginRight="16dp"
+android:divider="#111"
+       android:layout_marginTop="60dp"
+       android:id="@+id/liv_thucpham"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+   </ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>
